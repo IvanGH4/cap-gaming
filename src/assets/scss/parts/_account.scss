@@ -1,0 +1,24 @@
+.account-page {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    // background-color: #c24914;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    small {
+        display: block;
+        margin: 20px 0px;
+    }
+    img {
+        border-radius: 50%;
+    }
+}
+
+.line-separator {
+    width: 30%;
+    height: 2px;
+    background-color: #fff;
+}

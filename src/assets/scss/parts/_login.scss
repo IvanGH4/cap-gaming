@@ -1,0 +1,38 @@
+.login{
+    width: 100vw;
+    position: absolute;
+    z-index: 997;
+    text-align: center;
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_nav{
+        transform: translate3d(-10%, 0, 0);
+        text-align: center;
+    }
+    &_home{
+        padding-top: 30vh;
+    }
+}
+
+.btn-login{
+    padding: 15px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.google-logo{
+    img{
+        width: 40px;
+    }
+}
